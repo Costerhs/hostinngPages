@@ -1,0 +1,133 @@
+.sub {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 4.9%;
+    padding-right: 4.9%;
+}
+
+.sub .container {
+    flex-direction: column;
+    background: #FFCA42;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    padding-top: 96px;
+    padding-bottom: 115px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.sub__title {
+    font-family: 'Cardo';
+
+    font-size: 42px;
+    line-height: 50px;
+    color: #1B3764;
+
+}
+
+.sub__line {
+    width: 50px;
+    height: 3px;
+
+    background: #1B3764;
+    border-radius: 0px;
+    margin-top: 26px;
+}
+
+.sub__subtitle {
+    font-family: 'Inter';
+
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 550px;
+    color: #1B3764;
+    margin-top: 28px;
+}
+
+.sub__subscribe {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub__subscribe button {
+    background: #1B3764;
+    border: 2px solid #1B3764;
+    border-radius: 0px;
+
+    width: 328px;
+    height: 68px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.sub__subscribe button:hover {
+    background: white;
+    color: #1B3764;
+}
+
+.sub__subscribe button:focus {
+    border: 2px solid black;
+}
+
+.sub__subscribe input {
+    width: 656px;
+    height: 70px;
+    padding-left: 40px;
+}
+
+.sub__subscribe input::placeholder {
+    font-family: 'Inter';
+
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.18px;
+    color: #B4C7E7;
+
+}
+
+@media (max-width:1286px) {
+    .sub__subscribe {
+        width: 100%;
+    }
+
+    .sub__subscribe button {
+        width: 70%;
+    }
+
+    .sub__subscribe button {
+        width: 30%;
+    }
+}
+
+@media (max-width:866px) {
+    .sub__subscribe {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sub__subscribe input {
+        width: 100%;
+    }
+
+    .sub__subscribe button {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .sub__subtitle {
+        width: auto;
+    }
+
+    .sub .container {
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+}

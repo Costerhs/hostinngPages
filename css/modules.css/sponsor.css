@@ -1,0 +1,83 @@
+.sponsor {
+    padding-top: 126px;
+    padding-bottom: 106px;
+}
+
+.sponsor .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sponsor__title {
+    font-family: 'Cardo';
+    font-size: 42px;
+    text-align: center;
+    color: #1B3764;
+}
+
+.sponsor__line {
+    width: 50px;
+    height: 3px;
+    background: #FFCA42;
+    border-radius: 0px;
+    margin-bottom: 50px;
+    margin-top: 18px;
+}
+
+.sponsor__set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sponsor__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 314px;
+    height: 254px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.sponsor__item__title {
+
+    font-family: 'Cardo';
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #1B3764;
+    margin-top: 24px;
+}
+
+.sponsor__item__text {
+    font-family: 'Inter';
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    color: #969AA0;
+    margin-top: 20px;
+}
+
+.sponsor__img {
+    width: 190px;
+    height: 100px;
+}
+
+.sponsor__item img {
+    margin: 0 auto;
+}
+
+@media (max-width:425px) {
+    .sponsor__item {
+        width: 280px;
+    }
+
+    .sponsor__item__title,
+    .sponsor__item__text {
+        margin-top: 2px;
+    }
+}

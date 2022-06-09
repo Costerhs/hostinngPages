@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url(modules.css/header.css);
+@import url(modules.css/main.css);
+@import url(modules.css/author.css);
+@import url(modules.css/about.css);
+@import url(modules.css/sponsor.css);
+@import url(modules.css/tea.css);
+@import url(modules.css/desc.css);
+@import url(modules.css/vision.css);
+@import url(modules.css/comments.css);
+@import url(modules.css/article.css);
+@import url(modules.css/sub.css);
+@import url(modules.css/foot.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    padding-right: 4.9%;
+    padding-left: 4.9%;
+}
+
+.logo {
+    padding-top: 15px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    header .logo {
+        margin-right: 0px;
+    }
+}
+
+.button-order button {
+    width: 222px;
+    height: 66px;
+    background: #FFCA42;
+    border: 2px solid #FFCA42;
+    border-radius: 0px;
+
+    font-family: 'Cardo', serif;
+    font-size: 19px;
+    letter-spacing: 0.57px;
+    color: #1B3764;
+}
+
+.button-order button:hover {
+    background-color: #1B3764;
+    color: #FFCA42;
+}
+
+.button-order button:focus {
+    border: 2px solid #b38511;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    background: #FFCA42;
+    border-radius: 100px;
+
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+.title {
+    font-family: 'Cardo';
+    font-size: 42px;
+    color: #1B3764;
+
+    margin-bottom: 16px;
+    margin-left: 50px;
+}

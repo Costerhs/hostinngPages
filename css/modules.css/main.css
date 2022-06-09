@@ -1,0 +1,167 @@
+.main {
+    background: #1B3764;
+    padding-top: 7%;
+    padding-bottom: 72px;
+}
+
+.main .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__description {
+    width: 600px;
+    margin-left: 24px;
+}
+
+.main__link {
+    cursor: pointer;
+}
+
+.main__link:hover {
+    border-bottom: 1px solid #FFCA42;
+}
+
+.main__undertitle {
+    display: flex;
+    align-items: center;
+    font-family: 'Cardo';
+    font-size: 21px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+
+    margin-bottom: 16px;
+}
+
+.main__line {
+    width: 35px;
+    height: 2px;
+    background: #FFCA42;
+    margin-right: 14px;
+}
+
+.main__title {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+    line-height: 78px;
+    margin-bottom: 24px;
+}
+
+.main__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B4C7E7;
+    line-height: 28px;
+}
+
+.main__btn {
+    display: flex;
+    align-items: center;
+}
+
+.main .button-order {
+    margin-top: 42px;
+    margin-right: 51px;
+}
+
+.main__link {
+    font-family: 'Cardo';
+    font-size: 19px;
+    letter-spacing: 0.38px;
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+
+    margin-top: 30px;
+}
+
+.main__book-description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.main__book {}
+
+.desc-book {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+
+    margin-bottom: 30px;
+}
+
+.desc-book h2 {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+
+.desc-book p {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #B4C7E7;
+    padding-left: 14px;
+}
+
+.section__head {
+    display: flex;
+}
+
+
+@media (max-width:1174px) {
+    .main__book img {
+        width: 300px;
+    }
+}
+
+@media (max-width:844px) {
+    .main__book {
+        display: none;
+    }
+}
+
+@media (max-width:528px) {
+    .main__description {
+        margin-left: 10px;
+    }
+
+    .main .button-order button {
+        width: 120px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    .main__book-description {}
+}
+
+@media (max-width:364px) {
+    .desc-book {
+        flex-direction: row;
+    }
+
+    .desc-book p {
+        margin-top: 8px;
+    }
+
+    .main__book-description {
+        justify-content: left;
+    }
+
+    .main__title {
+        font-size: 50px;
+    }
+}
