@@ -135,12 +135,20 @@
 
 @media (max-width:1107px) {
     .about .container {
-        margin-left: 2%;
         justify-content: center;
         text-align: center;
+        flex-direction: column;
     }
 
-    .about__img,
+    .about__img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .about__img img {
+        width: 100%;
+    }
+
     .about__desc__line {
         display: none;
     }

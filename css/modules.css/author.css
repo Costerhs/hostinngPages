@@ -156,6 +156,7 @@
 
     .authors__item:first-child {
         margin-right: 0px;
+        margin-bottom: 30px;
     }
 }
 

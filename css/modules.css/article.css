@@ -71,6 +71,15 @@
     background: white;
 }
 
+.article__item__end button:hover {
+    border-bottom: 1px solid #235fbe;
+    color: #235fbe;
+}
+
+.article__item__end button:focus {
+    border: 1px solid black;
+}
+
 .article__data {
     font-family: 'Inter';
     font-size: 16px;
